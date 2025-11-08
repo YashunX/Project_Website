@@ -28,8 +28,9 @@ export default function Header() {
   return (
     <header className="bg-white/90 backdrop-blur-sm h-[60px] fixed w-full top-0 left-0 z-[1000] shadow-[0_2px_5px_rgba(0,0,0,0.1)]">
       <div className="max-w-[1000px] mx-auto px-5 h-full flex justify-between items-center">
-        <a href="#" className="text-2xl text-[#005aaa] no-underline font-bold">
-          安藤・生亀プロジェクト2025
+        <a href="#" className="text-2xl text-[#005aaa] no-underline font-bold flex flex-col md:flex-row md:items-center md:gap-2">
+          <span className="text-lg md:text-xl">安藤・生亀プロジェクト2025</span>
+          <span className="text-base md:text-lg font-normal" style={{ fontFamily: "'Playwrite HU', cursive" }}>Re:Path</span>
         </a>
 
         <button
@@ -57,7 +58,7 @@ export default function Header() {
 
         <nav
           id="primary-navigation"
-          className={`md:static md:translate-x-0 md:bg-transparent md:w-auto md:h-auto md:pt-0 fixed top-[60px] right-0 w-full h-[calc(100vh-60px)] bg-white/98 transition-transform duration-300 ease-in-out pt-[30px] ${
+          className={`md:static md:translate-x-0 md:bg-transparent md:w-auto md:h-auto md:pt-0 fixed top-[60px] right-0 w-full h-[calc(100vh-60px)] bg-white transition-transform duration-300 ease-in-out pt-[30px] ${
             isMenuOpen ? 'translate-x-0' : 'translate-x-full'
           }`}
           data-visible={isMenuOpen}

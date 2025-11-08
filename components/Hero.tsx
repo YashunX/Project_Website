@@ -22,17 +22,21 @@ export default function Hero() {
     <section className="relative h-screen flex justify-center items-center text-center text-white overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-full -z-[2]">
         <video
-          src="/play_video.mp4"
+          src="/nsgame_demo1.mov"
           autoPlay
           muted
           loop
           playsInline
-          className="w-full h-full object-cover"
+          className="w-full h-full md:object-cover object-contain"
         />
       </div>
       <div className="absolute top-0 left-0 w-full h-full bg-black/50 -z-[1]" />
       
       <div className="pt-[60px]">
+        <div className="mb-4">
+          <p className="text-[1.5rem] mb-2">安藤・生亀プロジェクト2025</p>
+          <h1 className="text-[4rem] md:text-[3rem] font-bold mb-4" style={{ fontFamily: "'Playwrite HU', cursive" }}>Re:Path</h1>
+        </div>
         <h2 className="text-[3.5rem] md:text-[2.5rem] font-bold my-0 mb-[10px] min-h-[5rem]">
           {displayText}
         </h2>

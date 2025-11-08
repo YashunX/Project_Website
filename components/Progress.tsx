@@ -48,7 +48,7 @@ export default function Progress() {
       ],
     },
     {
-      status: 'pending',
+      status: 'in-progress',
       contents: [
         { title: '拡張開発（2年次以降）', description: '2年次以降のゲームパートと、各プログラムに対応したミニゲームの制作を予定しています。' },
         { title: 'キャラクターデザイン', description: '主要キャラクターのデザインの制作を予定します。' },

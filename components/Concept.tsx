@@ -43,8 +43,8 @@ export default function Concept() {
         <h3 className="text-center text-[2.5rem] md:text-[2rem] mb-[50px] text-[#005aaa] relative pb-[15px] after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-20 after:h-[3px] after:bg-[#005aaa]">
           未来をシミュレーションしよう
         </h3>
-        <div className="flex md:flex-col items-center gap-10">
-          <div className="flex-1">
+        <div className="flex flex-col md:flex-row items-center gap-10">
+          <div className="flex-1 w-full md:w-auto order-2 md:order-1">
             <p className="mb-4 leading-[1.8]">
               本プロジェクトへようこそ！<br />
               私たちは、ネットワーク情報学部の新入生である皆さんをターゲットに、これから始まる4年間の学びと生活を追体験できるシミュレーションゲームを開発しています。
@@ -54,9 +54,9 @@ export default function Concept() {
               一つひとつの選択が、あなただけの物語を紡ぎ、未来のエンディングを形作ります。このゲームを通じて、充実した大学生活を送るためのヒントを見つけてください。
             </p>
           </div>
-          <div className="flex-1">
+          <div className="flex-1 w-full md:w-auto order-1 md:order-2">
             <img
-              src="/images/game_image.png"
+              src="/images/プレ画面.png"
               alt="ゲーム画面イメージ"
               className="max-w-full rounded-[10px] shadow-[0_10px_20px_rgba(0,0,0,0.1)]"
             />

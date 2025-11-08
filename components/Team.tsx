@@ -37,64 +37,55 @@ export default function Team() {
       image: '/images/カワウソ.png',
       name: '菊池 駿也',
       affiliation: 'DS',
-      role: 'a',
-      comment: 'わはは',
+      role: 'グラフィック',
     },
     {
       image: '/images/しゅんき_ぱんだ.JPG',
       name: '大井 駿輝',
       affiliation: 'NS',
-      role: 'a',
-      comment: 'こめ',
+      role: '開発',
     },
     {
       image: '/images/あまはる_ねこ.png',
       name: '天野 陽希',
       affiliation: 'PC',
-      role: 'a',
-      comment: 'こめ',
+      role: 'シナリオ',
     },
     {
       image: '/images/あゆむ_さかな.jpg',
       name: '青山 歩睦',
       affiliation: 'PC',
-      role: 'a',
-      comment: 'こめ',
+      role: 'グラフィック',
     },
     {
       image: '/images/ゆとう_いぬ.JPG',
       name: '湯藤 蒼梧',
       affiliation: 'PC',
-      role: 'a',
-      comment: 'こめ',
+      role: '開発',
     },
     {
       image: '/images/ゆう_ちんあなご.jpg',
       name: '篠原 悠',
       affiliation: 'MC',
-      role: 'a',
-      comment: 'こめ',
+      role: 'シナリオ',
     },
     {
       image: '/images/とね_うーぱー.JPG',
       name: '戸根 晟学',
       affiliation: 'MC',
-      role: 'a',
-      comment: 'こめ',
+      role: 'グラフィック',
     },
     {
       image: '/images/しみず_かめ.jpg',
       name: '清水 俊介',
       affiliation: 'IB',
-      role: 'a',
-      comment: 'こめ',
+      role: 'シナリオ',
     },
     {
       image: '/images/ほりえ_いぬ.jpg',
       name: '堀江 結人',
       affiliation: 'CD',
-      role: 'a',
-      comment: 'こめ',
+      role: '開発',
     },
   ]
 
@@ -129,10 +120,6 @@ export default function Team() {
                 <p className="my-[5px] mx-0">
                   <strong className="text-[#333] mr-[5px]">担当：</strong>
                   {member.role}
-                </p>
-                <p className="mt-[15px] mb-[5px] mx-0 pt-[15px] border-t border-[#eee]">
-                  <strong className="text-[#333] mr-[5px]">コメント：</strong>
-                  {member.comment}
                 </p>
               </div>
             </div>
